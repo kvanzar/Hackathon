@@ -1,0 +1,22 @@
+[project]
+name = "travel-ai-backend"
+version = "1.0.0"
+description = "A production-grade agentic workflow for travel planning."
+requires-python = ">=3.9"
+
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "pydantic",
+    "python-dotenv",
+    "langchain==0.2.1",
+    "langchain-openai==0.1.7",
+    "langgraph==0.0.62",
+    "amadeus==7.0.0", # <-- This version has been corrected
+    "requests==2.32.3",
+    "langchain-community",
+    "playwright",
+    "duckduckgo-search"
+]
+[tool.setuptools]
+packages = ["app", "agents", "services", "utils"]

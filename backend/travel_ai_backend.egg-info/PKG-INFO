@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: travel-ai-backend
+Version: 1.0.0
+Summary: A production-grade agentic workflow for travel planning.
+Requires-Python: >=3.9
+Requires-Dist: fastapi
+Requires-Dist: uvicorn[standard]
+Requires-Dist: pydantic
+Requires-Dist: python-dotenv
+Requires-Dist: langchain==0.2.1
+Requires-Dist: langchain-openai==0.1.7
+Requires-Dist: langgraph==0.0.62
+Requires-Dist: amadeus==7.0.0
+Requires-Dist: requests==2.32.3
+Requires-Dist: langchain-community
+Requires-Dist: playwright
+Requires-Dist: duckduckgo-search

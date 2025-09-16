@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
+langchain==0.2.1
+langchain-openai==0.1.7
+langgraph==0.0.62
+amadeus==7.0.0
+requests==2.32.3
+langchain-community
+playwright
+duckduckgo-search
