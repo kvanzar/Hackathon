@@ -21,7 +21,7 @@ function Header() {
       };
 
       setUser(googleUser);
-      navigate("/chatbot"); // Navigate to chatbot after login
+      navigate("/chatbot"); 
     };
 
     initializeGoogleSignIn(handleCredentialResponse);
