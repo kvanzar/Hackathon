@@ -1,0 +1,39 @@
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to bottom, #001f3f, #001933);
+  color: white;
+}
+
+.content {
+  flex: 1;
+  padding: 20px;
+}
+
+.image-slider {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  margin-bottom: 30px;
+}
+
+.image-slider img {
+  width: 200px;
+  height: 120px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 15px;
+}
+
+.gallery img {
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+  object-fit: cover;
+}

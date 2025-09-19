@@ -1,0 +1,137 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.hero, .trip-form-section {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 8%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll; 
+
+  color: #fff;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 30, 60, 0.45); 
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  max-width: 600px;
+}
+
+.hero-content h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+.hero-content p {
+  font-size: 1.3rem;
+  margin-bottom: 30px;
+  text-shadow: 1px 1px 6px rgba(0, 0, 0, 0.5);
+}
+
+.ai-chat-button input {
+  padding: 14px 24px;
+  border-radius: 30px;
+  border: none;
+  background: #ffffffcc;
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.ai-chat-button input:hover {
+  background: #ffd700;
+  color: #000;
+  transform: scale(1.05);
+}
+
+
+.trip-form-section {
+  text-align: center;
+  padding: 60px 20px;
+  background: #fff;
+}
+
+.trip-form-section h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #111;
+  margin-bottom: 10px;
+}
+
+.trip-form-section p {
+  font-size: 1.1rem;
+  color: #1565c0;
+  margin-bottom: 30px;
+}
+
+.trip-form {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.trip-form input {
+  padding: 14px 18px;
+  border-radius: 10px;
+  border: 1px solid black;
+  font-size: 1rem;
+  outline: none;
+  min-width: 220px;
+  background: #fafafa;
+  transition: all 0.3s ease;
+}
+
+.trip-form input:focus {
+  border-color: #1565c0;
+  box-shadow: 0 0 8px rgba(21, 101, 192, 0.3);
+}
+
+.trip-form button {
+  padding: 14px 28px;
+  border-radius: 12px;
+  border: none;
+  background: #1565c0;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.trip-form button:hover {
+  background: #0d47a1;
+  transform: translateY(-2px);
+}
